@@ -106,8 +106,8 @@
               viewWatch = function() {
                 return ngModel.$viewValue;
               };
-              scope.$watch(viewWatch, ngModel.$render, true);
             }
+            scope.$watch(viewWatch, ngModel.$render, true);
           } else {
             initOrUpdate();
           }
